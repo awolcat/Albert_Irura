@@ -103,7 +103,6 @@ body {
     .root .about-me-container {
         flex-direction: column;
         height: fit-content;
-        margin: 30px 0px;
     }
 
     .about-me-container > .image {
