@@ -1,3 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p, h1, h2, h3, h4 {
+    color: white;
+}
+
+.highlight {
+    color: gold;
+}
+
 p, a {
     font-family: 'Nunito', sans-serif;
 }
@@ -6,10 +18,137 @@ h1 {
     font-family: 'Nunito', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .root {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    height: 100vh;
+    position: relative;
 }
+
+/* Media Queries */
+@media screen and (max-width: 852px) {
+
+    html {
+        height: fit-content;
+    }
+
+    body {
+        height: fit-content;
+    }
+
+
+    .root .navbar > .mid {
+        flex-basis: 0px;
+        justify-content: space-evenly;
+        overflow-x: hidden;
+    }
+
+    .navbar > .mid > a {
+        min-width: none;
+    } 
+
+    .root {
+        width: 100%;
+
+        gap: 50px;
+
+    }
+
+    .root .intro-container {
+        align-items: center;
+        height: fit-content;
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .intro .content .socials {
+        justify-content: center;
+    }
+
+    .content > .hello, .content > .role {
+        font-size: large;
+        text-align: center;
+    }
+
+    .stack {
+        max-width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-container .stack p {
+        text-align: center;
+        border-right: none;
+        border-bottom: solid 2px white;
+        margin-bottom: 10px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .intro-container .stack .skills {
+        justify-content: center;
+    }
+
+    .root .about-me-container {
+        flex-direction: column;
+        height: fit-content;
+        margin: 30px 0px;
+    }
+
+    .about-me-container > .image {
+
+        width: 100%;
+        flex-basis: 300px;
+        flex-shrink: 1;
+        height: 300px;
+    }
+
+    .about-me-container > .image > img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-me-container > .about-me {
+        flex-grow: 1;
+        height: fit-content;
+    }
+
+    .about-me-container .about-me  * {
+        width: 100%;
+    }
+
+    .root .portfolio-container {
+        height: fit-content;
+    }
+
+    .project-container {
+        flex-wrap: wrap;
+        max-width: 80%;
+        height: fit-content;
+    }
+
+    #portfolio .project-container .about-project {
+        flex-basis: 80%;
+    }
+
+    .portfolio-container h4 {
+        margin-top: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 852px) {
+    
+  }

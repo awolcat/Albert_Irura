@@ -4,10 +4,7 @@
     --secondary: #5D6BF8;
     --third: #e27fcb;
   }
-  
-  * {
-    box-sizing: border-box;
-  }
+
   
   body {
     background: #005;

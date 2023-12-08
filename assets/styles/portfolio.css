@@ -1,0 +1,66 @@
+.portfolio-container {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.portfolio-container h4 {
+    align-self: flex-start;
+    font-size: x-large;
+    color: gold;
+}
+
+.portfolio-container .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(70, 68, 68);
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+
+.portfolio-image {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.portfolio-image img {
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(0);
+    transition: transform 2s ease-out;
+    cursor: pointer;
+}
+
+.portfolio-image:hover img {
+    object-fit: cover;
+    transform: translateY(calc(-100% + 400px));
+    
+}
+
+.about-project {
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.about-project h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.about-project p {
+    margin-bottom: 3px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+}
