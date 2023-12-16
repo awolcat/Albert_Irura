@@ -1,5 +1,5 @@
 .portfolio-container {
-    height: fit-content;
+    height: 89vh;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
 }
 
 .about-project p {
-    margin-bottom: 3px;
+    margin-bottom: 20px;
 }
 
 .project-links {

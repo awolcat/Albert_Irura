@@ -1,6 +1,6 @@
 .about-me-container {
     display: flex;
-    height: fit-content;
+    height: 89vh;
     width: fit-content;
     justify-content: space-evenly;
     align-items: center;
