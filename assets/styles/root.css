@@ -122,6 +122,7 @@ body {
     .about-me-container > .about-me {
         flex-grow: 1;
         height: fit-content;
+        padding-top: 15px;
     }
 
     .about-me-container .about-me  * {
