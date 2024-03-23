@@ -134,14 +134,23 @@ body {
         height: fit-content;
     }
 
-    .project-container {
+    .list .item {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        height: fit-content;
+    }
+
+    
+    .root .portfolio-container .project-container {
         flex-wrap: wrap;
         max-width: 80%;
         height: fit-content;
     }
 
     #portfolio .project-container .about-project {
-        flex-basis: 80%;
+        flex-basis: 75%;
+        height: fit-content;
     }
 
     .portfolio-container h4 {
