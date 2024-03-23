@@ -88,14 +88,16 @@
         <li class="item">
           <div class="project-container">
             <div class="portfolio-image">
-              <img alt="developer" src="assets/images/Artisan.png" />
+              <img class="scrollable" alt="artisan landing page" src="assets/images/Artisan.png" />
             </div>
             <div class="about-project">
               <h3>Artisan [Gig Platform]</h3>
+              <div>
               <p>Gig platforms allow users to post tasks they need done and
                 define the requirements of the tasks. From there, gig workers can claim
                 available tasks and get paid for their work!
               </p>
+              </div>
               <div class="project-links">
                 <a class="btn" href="https://github.com/awolcat/Artisan" target="_blank" rel="noopener noreferrer">Code</a>
                 <a class="btn" href="https://irura.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">Live</a>
@@ -106,28 +108,36 @@
         <li class="item">
           <div class="project-container">
             <div class="portfolio-image">
-              <img alt="developer" src="assets/images/Artisan.png" />
+              <img alt="exchange" src="assets/images/exchange.png" />
+              <img alt="exchange" src="assets/images/support.png" />
             </div>
             <div class="about-project">
+            
               <h3>Exchange [Currency Exchange Platform]</h3>
-              <p>Exchange is a platform that allows people travelling to Kenya to use their
+              <div>
+              <p class="scrollable">Exchange is a platform that allows people travelling to Kenya to use their
                 foreign-issued debit or credit card to credit their M-Pesa wallet. M-Pesa is a
                 mobile-network based wallet that is widely used in Kenya and East Africa for day-to-day
                 transactions like grocery shopping, utility bills, and peer-to-peer payments. Exchange leverages
                 the convenince of M-Pesa and offers travellers easy access to the local currency
                 through a short three step process and easy to use interface!
               </p>
+              </div>
               <div class="project-links">
                 <a class="btn" href="https://github.com/awolcat/exchange" target="_blank" rel="noopener noreferrer">Code</a>
                 <a class="btn" href="https://irura.pythonanywhere.com/" target="_blank" rel="noopener noreferrer"
                   style="pointer-events: none; border-color: grey">Live</a>
               </div>
+              
             </div>
             </div>
         </li>
       </ul>
-      <button onclick="handleClick('previous')" class="button button--previous" type="button"><</button>
-      <button onclick="handleClick('next')" class="button button--next" type="button">></button>
+      <button onclick="handleClick('previous')" class="button button--previous" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#FFD43B" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+      </button>
+      <button onclick="handleClick('next')" class="button button--next" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#FFD43B" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>      </button>
     </div>
     <script>
       const list = document.querySelector(".list");
