@@ -10,7 +10,6 @@
 
 
 .portfolio-container h4 {
-    /*align-self: flex-start;*/
     display: block;
     text-align: center;
     font-size: x-large;
@@ -108,17 +107,6 @@
     scroll-snap-type: x mandatory;  
     scrollbar-color: #888 #000000;
     scrollbar-width: thin;
-    /* scrollbar in Chrome, Safari, and Opera */
-    /*::-webkit-scrollbar {
-      width: 5px;
-    }*/
-
-
-    /* scrollbar in Firefox 
-    scrollbar-width: 5px;*/
-
-  /* scrollbar in IE and Edge
-  -ms-overflow-style: */
   }
 
   .list::-webkit-scrollbar {
@@ -126,11 +114,7 @@
     height: thin;
     color: #000;
   }
-/*
-  .list::-webkit-scrollbar {
-    width: 5px;
-  }
-  */
+
   .item {
     flex-shrink: 0;
     width: 100%;
