@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     color: white;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
     gap: 20px;
     align-items: center;
@@ -45,9 +45,6 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.navbar > a {
-    
-}
 
 .btn {
     color: white;

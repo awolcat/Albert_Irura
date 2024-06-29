@@ -32,6 +32,7 @@ body {
     justify-items: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 /* Media Queries */
@@ -133,12 +134,14 @@ body {
         width: 100%;
     }
 
-    .root .portfolio-container {
+    .portfolio-container {
         height: fit-content;
-        width: 100%;
+        width: 390px;
+        padding-bottom: 0;
     }
 
     .list {
+        width: 100%;
         padding: 0;
         margin: 0;
     }
