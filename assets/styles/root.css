@@ -52,14 +52,17 @@ body {
         overflow-x: hidden;
     }
 
+    .navbar {
+        max-width: 100%;
+    }
+
     .navbar > .mid > a {
         min-width: none;
     } 
 
     .root {
-        width: 100%;
-
-        gap: 50px;
+        max-width: fit-content;
+   
 
     }
 
@@ -132,6 +135,12 @@ body {
 
     .root .portfolio-container {
         height: fit-content;
+        width: 100%;
+    }
+
+    .list {
+        padding: 0;
+        margin: 0;
     }
 
     .list .item {
@@ -141,6 +150,9 @@ body {
         height: fit-content;
     }
 
+    .portfolio-container {
+        padding: 0;
+    }
     
     .root .portfolio-container .project-container {
         flex-wrap: wrap;
