@@ -1,0 +1,68 @@
+.navbar {
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    color: white;
+    width: 90%;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    height: 80px;
+    padding-right: 2%;
+    padding-left: 2%;
+    background-color: black;
+    opacity: 1;
+    z-index: 5;
+}
+
+.navbar > p {
+    color: white;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar > .mid {
+    display: flex;
+    height: 100%;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 450px;
+}
+
+/*.navbar > p > .highlight {
+    color: gold;
+}*/
+
+.navbar > .mid > a {
+    color: white;
+    text-decoration: none;
+    height: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.btn {
+    color: white;
+    text-decoration: none;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+
+    min-width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: black;
+    background-color: gold;
+}
